@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.main {
+    display: flex;
+}
+
+/* banner part start */
+#banner-part {
+    background: url(../images/2-3.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner-part:before {
+    display: block;
+    content: "";
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, .5) 80%, transparent 100%);
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#banner-part .top-info {
+    position: relative;
+    padding-left: 65px;
+    color: #fff;
+}
+
+#banner-part .top-info img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner-part .question {
+    line-height: 1;
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+}
+
+#banner-part .number {
+    font-size: 20px;
+    line-height: 1;
+    display: block;
+    font-weight: bold;
+}
+
+#banner-part .top-info:hover {
+    color: #ba0901;
+}
+
+#banner-part h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+    width: 380px;
+    margin-top: 100px;
+}
+
+#banner-part .houston {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: -10px;
+    width: 500px;
+    line-height: 45px;
+}
+
+#banner-part form {
+    position: relative;
+}
+
+#banner-part input {
+    width: 600px;
+    padding: 20px;
+    background: #fff;
+    border: 0;
+    border-left: 5px solid #ba0901;
+}
+
+#banner-part button {
+
+    background-color: #ba0901;
+    color: #ffffff;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #aaa;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    right: 55px;
+    transform: translateY(-50%);
+
+}
+
+#banner-part .offer {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 45px;
+}
+
+#banner-part button:hover {
+    background-color: #ce4a4a;
+}
+
+/* banner part end */
+
+/* sponsor part start */
+
+#sponsor-part {
+    margin-top: 45px;
+    border-bottom: 5px solid #ba0901;
+    padding-bottom: 45px;
+}
+
+/* sponsor part end */
+
+
+/* sell part start */
+
+#sell-part .title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    width: 475px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+#sell-part .subtitle {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    width: 675px;
+    margin: 50px auto;
+}
+
+#sell-part img {
+    width: 100%;
+}
+
+#sell-part h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #ba0901;
+    margin: 40px 0;
+}
+
+#sell-part h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#sell-part p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* sell part end */
+
+/* cash part start */
+#cash-part {
+    background: url(../images/2-3.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 80px;
+    background-attachment: fixed;
+}
+
+#cash-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+    text-align: center;
+    padding: 70px 0;
+}
+
+#cash-part .overlay h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+
+}
+
+#cash-part .overlay h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    width: 722px;
+    margin: 0 auto;
+
+}
+
+#cash-part .overlay a {
+    display: inline-block;
+    padding: 10px 70px;
+    background: #ba0901;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+#cash-part .overlay a:hover {
+    background: #860902;
+}
+
+/* cash part end */
+
+/* why choose part start */
+
+#why-choose .title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    width: 507px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+#why-choose img {
+    width: 100%;
+}
+
+#why-choose h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #ba0901;
+    margin: 40px 0;
+    text-transform: uppercase;
+}
+
+#why-choose p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* why choose part end */
+
+/* why selling part start */
+#why-selling {
+    margin-top: 80px;
+}
+
+#why-selling .title {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#why-selling .item {
+    width: 33.33%;
+    border-bottom: 1px solid #eee;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#why-selling .item.color {
+    background: #f9f8f8;
+}
+
+#why-selling .price {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #8A8A8A;
+}
+
+#why-selling p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8A8A8A;
+}
+
+#why-selling .sold {
+    color: #ba0901;
+}
+
+/* why selling part end */
+
+
+/* guarantee part start */
+#guarantee {
+    margin-top: 80px;
+}
+
+#guarantee .info {
+    position: relative;
+    padding-left: 100px;
+}
+
+#guarantee .info img {
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+
+#guarantee .info p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#guarantee .info h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+#houses {
+    margin-top: 70px;
+}
+
+/* guarantee part end */
+
+
+/* offer part start */
+#offer-part {
+    background: #000;
+    background-attachment: fixed;
+}
+
+#offer-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+    text-align: center;
+    padding: 70px 0;
+}
+
+#offer-part .overlay h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+
+}
+
+#offer-part .overlay h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    width: 722px;
+    margin: 0 auto;
+
+}
+
+#offer-part .overlay a {
+    display: inline-block;
+    padding: 10px 70px;
+    background: #ba0901;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+#offer-part .overlay a:hover {
+    background: #860902;
+}
+
+/* offer part end */
+
+/* why choose part start */
+
+#txoffer .title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    width: 707px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+#txoffer img {
+    width: 100%;
+}
+
+#txoffer h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #c4c4c4;
+    margin: 40px 0;
+    text-transform: uppercase;
+}
+
+#txoffer h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#txoffer i {
+    color: #ba0901;
+}
+
+#txoffer p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* why choose part end */
+
+/* footer start */
+footer {
+    background: #1c1c1c;
+    padding: 70px 0;
+    margin-top: 70px;
+}
+
+footer p {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #7f7e7e;
+    width: 380px;
+}
+
+/* footer end */
